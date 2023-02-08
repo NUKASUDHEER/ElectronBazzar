@@ -1,0 +1,35 @@
+
+.processOrderMainContainer{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    /* background-color:#efefef; */
+    width:117%;
+}
+
+.processingDetails{
+    margin-top:35px;
+    margin-left: 5px;
+    /* background-color:#efefef; */
+}
+
+.processingDetails p{
+    color:rgb(70, 70, 70);
+}
+
+.details{
+    margin:25px;
+}
+
+.splitTwoDivsLine{
+    width:1px;
+    height: 95.8vh;
+    background-color: rgb(167, 167, 167);
+    margin:5px;
+}
+
+.processOrderDelivered{
+    margin-top:10%;
+    /* background-color:#efefef; */
+    width:30%;
+}

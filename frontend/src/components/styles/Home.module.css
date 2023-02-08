@@ -1,0 +1,41 @@
+.body{
+    background-color: #efefef;
+    font-family: 'Poppins', sans-serif;
+}
+
+.images {
+    height: 95vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.featuredProducts{
+    height: 800px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    margin: 2em;
+    margin-left: 10%;    
+}
+
+.featuredProductHeading{
+    margin-left: 37%;
+    margin-top: 5%;
+    font-weight: 100;
+}
+
+.line {
+    width: 50%;
+    height: 0;
+    border-top: 1px solid black;
+    margin: 0.25em;
+    margin-left: 25%;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', 'sans-serif';
+}

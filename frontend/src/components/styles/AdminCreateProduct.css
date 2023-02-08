@@ -1,0 +1,90 @@
+/* Admin Create Product Form */
+
+.completeForm {
+    position: absolute;
+    top: 5%;
+    left: 44%;
+}
+
+.UsercompleteForm{
+    position: absolute;
+    top: 15%;
+    left: 44%;
+}
+
+.createProductForm {
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 600%;
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    padding: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.createUserForm {
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 600%;
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    padding: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* AdmincreatePoduct And Shipping Form */
+.inputField {
+    display: inline-block;
+    padding: 0.5em;
+    border-radius: 4px;
+    /* height: 2%; */
+    width: 96%;
+    border: 1px solid gray;
+}
+
+.selectOption {
+    /* height:40px; */
+    width: 96%;
+    border-radius: 4px;
+    color: gray;
+}
+
+.selectOption:hover {
+    cursor: pointer;
+    border: 2px solid gray;
+}
+
+
+.divInput {
+    padding: 5px;
+    margin: 10px;
+}
+
+.userDivInput {
+    padding: 5px;
+    margin: 10px 3px 10px 17px;
+}
+
+.createButton{
+    display: block;
+    width:90%;
+    border: 1px solid gray;
+    /* margin: 1em 0; */
+    border-radius: 4px;
+    height: 40px;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    margin: 5%;
+}
+
+.createButton:hover {
+    border: 1px solid gray;
+    background-color: #b5b5b5;
+    color: black;
+    cursor: pointer;
+}

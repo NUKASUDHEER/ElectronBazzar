@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    top: 10%;
+}
+
+main {
+    width: 100%;
+    padding: 1%;
+}
+
+.sidebar {
+    color: #fff;
+    background: rgb(87, 87, 87);
+    height: 100vh;
+    width: 28%;
+    top: 5%;
+    transition: all 0.5s;
+}
+
+.top_section {
+    display: flex;
+    align-items: center;
+    padding: 10% 10%;
+    
+}
+
+.logo {
+    font-size:150%;
+    margin-right: 15px;
+    color:#efefef;
+}
+
+.bars {
+    display: flex;
+    font-size:200%;
+    margin-left: 10%;
+}
+
+.link {
+    color: #fff;
+    padding: 5% 15%;
+    /* gap: 5%; */
+    letter-spacing: 0.05em;
+    transition: all 0.5s;
+}
+
+.link:hover {
+    background: rgb(168, 168, 168);
+    color: #efefef;
+    transition: all 0.5s;
+}
+
+.iconTextLink{
+    display:flex;
+    flex-direction:row;
+    gap: 5%;
+}
+
+.active {
+    background: lightskyblue;
+    color: #000;
+}
+
+.Adminicon, .link_text {
+    font-size: 110%;
+}
+
+.bars :hover{
+    cursor: pointer;
+}
+
+.AdminIconClose{
+    padding: 5% 15%
+}

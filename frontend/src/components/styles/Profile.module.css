@@ -1,0 +1,63 @@
+.completeDiv {
+    background-color: #efefef;
+    border-top: 1px solid black;
+    height:100vh;
+    width: 100vw;
+    margin-top: 1%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imageBox{
+    width: 40%;
+    height: 80%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
+    border-radius: 50%;
+
+    /* border: 10px solid black; */
+}
+
+.imageBox > img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.infoBox{
+    width: 40%;
+    height: 80%;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border: 10px solid black; */
+}
+
+.infoBox > div{
+    margin: 3em 0;
+}
+
+.infoBox > div > p{
+    color: black
+}
+
+.lastDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    text-decoration: none;
+    margin: 0.5em 0;
+    color: black
+}
+
+
+.linkImage {
+    text-decoration: none;
+    margin: 0.5em 0;
+    color: black;
+    margin-left: 40%;
+    font-size: 1.25rem;
+}

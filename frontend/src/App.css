@@ -1,0 +1,19 @@
+.body{
+  background-color: rgb(241,239,239);
+}
+
+.App {
+  display: flex;
+  margin-top: 6%;
+}
+
+.Display{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+

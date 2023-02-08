@@ -1,0 +1,40 @@
+.filters{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    height:fit-content;
+    margin-left: 10px;
+    width: 20%;
+    padding: 10px;
+    box-shadow: rgba(0, 0,0, 0.15)1.95px 1.95px 2.6px;
+  }
+  
+  .reset12{
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .heading-name{
+    /* margin-right: 100px; */
+    text-align:left
+    
+  }
+
+  .clearbutton{
+    margin-top: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    color: black;
+  }
+
+  .clearbutton:hover{
+    color: blue;
+  }
+
+  .border-line{
+    height: auto;
+    background-color: rgb(194, 193, 193); 
+    border: 1px solid rgb(194, 193, 193);
+  }
